@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    display: flex;
+    height: 200px;
+    background-color:rgb(38, 38, 151);
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all{
+    display: flex;
+    height: 800px;
+
+}
+
+.left{
+    width: 375px;
+    background-color: teal;
+    border-radius: 5px;
+}
+p{   
+    color: white;
+    margin: 90px;
+    line-height: 23px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mid{
+    width: 1150px;
+    background-color: white;
+    display: inline-block;
+}
+#wri{
+    width: 710px;
+    margin-left: 20%;
+    margin-top: 60px;
+    height: 145px;
+    background-color: rgb(108, 149, 204);
+    border-radius: 5px;
+}
+textarea {
+    margin-left: 20%;
+    margin-top: 10px;
+    width: 60%;
+    border: 9px solid black;
+    border-radius: 15px;
+}
+.right{
+    width: 400px;
+    background-color: teal;
+    display: inline-block;
+}
+#time{
+    margin-left: 20%;
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+
+}
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    margin-left: 60px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px black;
+
+}
+
+button:hover{
+    background-color: rgb(108, 149, 204);
+}
+button:active {
+    background-color: violet;
+    box-shadow: 0 5px rgb(102, 102, 102);
+    transform: translateY(6px);
+}
